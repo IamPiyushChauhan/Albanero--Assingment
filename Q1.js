@@ -18,9 +18,9 @@ function primeFactors(x) {
         }
     }
     if(factors.length >0){
-        return factors
+        return "Yes"
     }else{
-        return "No";
+        return "NI";
     }
 }
 
