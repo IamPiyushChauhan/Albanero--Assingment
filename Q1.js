@@ -18,7 +18,7 @@ function primeFactors(x) {
         }
     }
     if(factors.length >0){
-        return "Yes"
+        return "YES"
     }else{
         return "NI";
     }
@@ -41,6 +41,6 @@ function primeFactorsOfReversedNum(x){
     return primeFactors(reverse(x))
 }
 
-console.log(primeFactorsOfReversedNum(123)); //[ 3, 107 ]
-console.log(primeFactorsOfReversedNum(1500));// [ 3, 17 ]
-console.log(primeFactorsOfReversedNum(1000));// No
+console.log(primeFactorsOfReversedNum(123)); // YES
+console.log(primeFactorsOfReversedNum(1500));// YES
+console.log(primeFactorsOfReversedNum(1000));// NI
